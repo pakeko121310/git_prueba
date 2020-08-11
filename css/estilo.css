@@ -1,5 +1,5 @@
 header{
-    background-color:  #1E92AE;
+    background-color:  yellow;
     width: 100%;
     margin: 0 auto;
     margin-left: -0px;
@@ -39,7 +39,7 @@ div{
 .contenedor{
 
 
-background: orange;
+background: red;
 width: 80%;
 margin: auto;
 overflow: hidden;}
