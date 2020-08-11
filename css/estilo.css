@@ -12,7 +12,7 @@ header{
     left: -12px;
 }
 body{
-    background-color: #2365e0;
+    background-color: green;
     color:#ffffff
 }
 h1{
@@ -22,7 +22,12 @@ h1{
 label{
     display: block;
 }
-
+.pruebaa{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+}
 
 div{
     background-color: #4d82e6;
