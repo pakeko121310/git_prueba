@@ -1,0 +1,45 @@
+header{
+    background-color:  #1E92AE;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: -0px;
+    margin-top: -0px;
+    color: white;
+    text-align: center;
+    border: 2px black solid;
+    position: relative;
+    top: -12px;
+    left: -12px;
+}
+body{
+    background-color: #2365e0;
+    color:#ffffff
+}
+h1{
+    text-transform: uppercase;
+    font: bold 20px/45px ;
+}
+label{
+    display: block;
+}
+
+
+div{
+    background-color: #4d82e6;
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+.boton{
+    align-content: center;
+    margin: 0px auto;
+    align-items: center;
+}
+.contenedor{
+
+
+background: orange;
+width: 80%;
+margin: auto;
+overflow: hidden;}

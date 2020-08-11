@@ -1,0 +1,50 @@
+<html>
+    <head>
+<title>
+formulario    
+</title>
+
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div class="contenedor">
+<header> <h2>Historial Clinico </h2></header>
+<div class="container" style="max-width: 650px; min-width: 400px;">
+    <div class="card">
+        <h2 class card-header text-center>Historial clinico</h2>
+        <div class="card-body">
+            <form id="myForm" >
+            <div class="form-group">
+                <label for="documento">Documento:</label>
+                <input type="number" class="form-control" id="documento" placeholder="123456790">
+                <label for="tipo_documento">Tipo de documento:</label>
+                <select>
+                    <option>Tipo de documento</option>
+                    <option>Registro Civil </option>
+                    <option>Targeta de Identidad </option>
+                    <option>Cedula de Ciudadania</option>
+                    <option>Cedula de extranjeria</option>
+                    <option>Pasaporte </option>
+                    <option>Menor sin Identificacion</option>
+                    <option>Adulto sin Identidad</option>
+                </select>
+                
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" class="form-control" id="apellidos" placeholder="anonimo">
+                <label for="nombres">Nombres:</label>
+                <input type="text" class="form-control" id="nombres" placeholder="anonimo">
+                
+                
+<br>
+               <center> <input type="submit" id="boton" value="consultar" ></center>
+            </div >
+            
+            </form>
+        </div>
+    </div> 
+
+</div>
+
+</div>
+</body>
+</html>
